@@ -1,0 +1,15 @@
+body {
+    align-content: center;
+    margin:0;
+    background: #8498c4;
+  }
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+  
+canvas {
+    opacity: 0;
+    background: #8498c4;
+    animation: fadeIn 1s ease-in-out 0.3s 1 forwards;
+}
